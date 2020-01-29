@@ -1,0 +1,465 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #444;
+  line-height: 150%;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+
+.site-width{
+   margin: 0 auto;
+   width: 980px;
+   height: 0;
+}
+
+
+/*========================popup==========================*/
+#js_msg{
+  position: fixed;
+  top: 0;
+  width:100%;
+  height:40px;
+  background: rgba(122,206,230,0.6);
+  text-align: center;
+  font-size:16px;
+  line-height: 40px;
+}
+
+
+/*           =============link=====================*/
+
+a{
+   text-decoration: none;
+   color: #333;
+}
+
+
+
+/*           =============header==================*/
+
+header{
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.left-logo img{
+    width: 150px;
+    margin-top: 20px;
+
+}
+
+.left-logo{
+   height: 80px;
+   display: inline-block;
+
+}
+
+
+
+/*           ================navigation======================*/
+
+.top-nav ul{
+    list-style: none;
+
+}
+
+.top-nav ul li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.top-nav li+ li{
+    border-left: 1px solid #333;
+}
+
+
+.top-nav ul li a{
+   padding: 5px 15px;
+}
+
+
+.top-nav{
+   display: inline-block;
+   float: right;
+   height: 80px;
+   line-height: 80px;
+}
+
+/*           =========================top-img=================================*/
+
+.top-img img{
+    width: 100%;
+    height: auto;
+    
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    transition: .5s ease-in-out;
+}
+
+.top-img{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.top-img:hover img{
+
+    
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+
+/*           ================================toppage-btn======================================*/
+
+.btn{
+   text-align: center;
+}
+
+#submit-btn{
+   width: 150px;
+   height: 60px;
+   font-size: 18px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 15px;
+   padding-left: 15px;
+   border-radius: 3px;
+   border: none;
+   background: #333;
+   color:white ;
+   cursor: pointer;
+}
+
+
+/*           ==========================form================================*/
+.various-form{
+   width: 40%;
+   margin: 0 auto;
+   margin-top: 60px;
+   margin-bottom: 100px;
+   padding: 30px;
+   border: 5px solid #f6f5f4;
+}
+
+.add-padding{
+    padding-bottom: 70px;
+}
+
+
+.title{
+   text-align: center;
+   margin-bottom: 50px;
+   font-size: 28px;
+}
+
+
+.various-form label{
+   display: block;
+   margin-top: 25px;
+}
+
+.various-form input{
+   box-sizing: border-box;
+   width: 100%;
+   height: 40px;
+   font-size: 18px;
+   padding-left: 10px;
+}
+
+
+.various-form .btn-container {
+   overflow: hidden;
+}
+
+
+.s-btn{
+   float: right;
+   width: 120px !important ;
+   font-size: 20px;
+   color: white;
+   background: #333;
+   margin-top: 15px;
+}
+
+input[type='checkbox']{
+    width:18px; 
+    height:18px; 
+    vertical-align:middle;
+}
+
+
+
+.unsubscribe{
+   width: 40%;
+   margin: 0 auto;
+   margin-top: 60px;
+   padding: 30px;
+   border: 5px solid #f6f5f4;
+}
+
+.unsubscribe h2{
+   text-align: center;
+   margin-bottom: 50px;
+   font-size: 28px;
+}
+
+input.un-btn{
+   width: 150px;
+   height: 40px;
+   font-size: 20px;
+   color: white;
+   background: #333;
+   margin-top: 15px;
+}
+        
+
+div.un-form{
+  text-align: center;
+}
+
+
+.forgot-pass{
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: initial;
+    display: inline-block;
+}
+
+
+/*=============================================artwork===================================*/
+.all{
+  width: 100%;
+  position: relative;
+  height: 600px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
+.one{
+  /* background: grey; */
+  width: 50%;
+  height: 600px;
+  position: absolute;
+  top: 60px;
+  box-sizing: border-box;
+  z-index: -10;
+
+}
+
+.two{
+    /* background: silver; */
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 490px;
+    box-sizing: border-box;
+    z-index: -10;
+
+}
+
+.two .favorite{
+    color: #f6f5f4;
+}
+
+
+
+
+.three{
+  /* background: gold; */
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  top: 160px;
+  left: 490px;
+  box-sizing: border-box;
+
+}
+
+
+
+
+main .music-title{
+  position: absolute;
+  font-weight: lighter;
+  font-size:28px;
+
+  right: 0;
+
+}
+
+
+
+
+
+main .art-work{
+  position: absolute;
+  top: 100px;
+  margin: 0;
+  width: 490px;
+  height: 490px;
+
+}
+
+
+main .number{
+  float: left;
+  padding-right: 20px;
+}
+
+main .music-list{
+  width: 400px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+main a{
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+main a:hover{
+  opacity: 0.6;
+}
+
+main .music-time{
+  float: right;
+}
+
+main .border-b{
+  border-bottom: solid 1px black;
+  line-height: 250%;
+  margin-bottom: 100px;
+}
+
+main p{
+  text-align: center;
+}
+
+
+
+/*===========================================arts===================================================*/
+.artwork-wrapper{
+  margin-top: 140px;
+}
+
+.artwork-img{
+  width: 250px;
+  height: 250px;
+  margin-left: 25px;
+  margin-right: 25px;
+  transition-duration: 0.3s;
+}
+
+.artwork-img:hover{
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  opacity: 0.6;
+  filter: sepia(40%);
+}
+
+.artwork{
+  overflow: hidden;
+  filter: sepia(0);
+}
+
+.paging{
+  list-style: none;
+  overflow: hidden;
+}
+
+.paging li{
+  float: left;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+
+.paging{
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+  font-size: 18px;
+}
+
+.paging .active{
+  background-color: #f6f5f4;
+}
+
+.paging li:hover{
+  background-color: rgba(250,235, 215, 0.6);
+  transition: background-color 1s;
+}
+
+
+
+
+/*           =================================down-navigation========================================*/
+
+.down-nav ul{
+   list-style: none;
+   float: right;
+   margin-top: 175px;
+   height: 40px;
+   line-height: 40px;
+   position: relative;
+   z-index: 1;
+}
+
+.down-nav ul li{
+   float: left;
+   padding: 0 15px;
+}
+
+.down-nav ul li a{
+   color: white;
+   text-decoration: none;
+}
+
+
+.down-nav li+ li{
+
+}
+
+
+/*           ==================================footer====================================*/
+
+footer{
+
+   text-align: center;
+   background: #333;
+   color: white;
+   width: 100%;
+   height: 40px;
+   line-height: 40px;
+}
+
+
+/*=====================================エラーメッセージ========================================*/
+
+
+
+.err{
+    background: #f7dcd9;
+}
+
+.area_msg{
+    color: red;
+}
