@@ -1,23 +1,17 @@
 albem art space
 ====
 
-Overview
+## 説明
+phpのアウトプットとして作成
 
-## Description
-アートスペース
+## 機能
+- 会員登録
+- ログイン
+- ログアウト
+- 退会
+- パスワード変更
+- ログイン前ページ
+- ログイン後ページ
+- いいね機能
 
-## Demo
 
-## VS. 
-
-## Requirement
-
-## Usage
-
-## Install
-
-## Contribution
-
-## Licence
-
-## Author
