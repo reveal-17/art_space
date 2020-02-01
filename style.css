@@ -61,8 +61,6 @@ header{
 
 }
 
-
-
 /*           ================navigation======================*/
 
 .top-nav ul{
@@ -98,7 +96,7 @@ header{
 .top-img img{
     width: 100%;
     height: auto;
-    
+
     -webkit-filter: blur(0);
     filter: blur(0);
     transition: .5s ease-in-out;
@@ -112,7 +110,7 @@ header{
 
 .top-img:hover img{
 
-    
+
     -webkit-filter: blur(3px);
     filter: blur(3px);
     -webkit-transition: .3s ease-in-out;
@@ -193,8 +191,8 @@ header{
 }
 
 input[type='checkbox']{
-    width:18px; 
-    height:18px; 
+    width:18px;
+    height:18px;
     vertical-align:middle;
 }
 
@@ -222,7 +220,7 @@ input.un-btn{
    background: #333;
    margin-top: 15px;
 }
-        
+
 
 div.un-form{
   text-align: center;
@@ -431,11 +429,6 @@ main p{
 .down-nav ul li a{
    color: white;
    text-decoration: none;
-}
-
-
-.down-nav li+ li{
-
 }
 
 

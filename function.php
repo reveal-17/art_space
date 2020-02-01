@@ -92,7 +92,7 @@ function validEmailDup($email){
             global $error_msg;
             $error_msg['email'] = MSG4;
         }
-        
+
         }catch(Exception $e){
             error_log('エラー発生：'.$e->getMessage());
             $error_msg['common'] = MSG8;
@@ -195,19 +195,19 @@ function sendMail($from,$to,$subject,$comment){
         mb_internal_encoding("UTF-8");
         mb_send_mail($to,$subject,$comment,'From:'.$from);
     }
-    
+
 }
 
-function getArtwork($currentMinNum=0, $span=3){
+function getArtworkSlider($currentSliderPosition, $sliderSpan){
     try{
+        // 1.すべての画像データを一旦取り込む
         $dbh = dbConnect();
         $sql = 'SELECT * FROM art';
         $data = array();
         $stmt = queryPost($dbh,$sql,$data);
         $result['total'] = $stmt->rowCount();
-        $result['totalPage'] = ceil($result['total']/$span);
-        
-        
+        $result['totalPage'] = ceil($result['total']/$sliderSpan);
+
         if($stmt){
             debug('クエリ成功');
             debug('クエリで取得した$result'.print_r($result,true));
@@ -215,26 +215,63 @@ function getArtwork($currentMinNum=0, $span=3){
             debug('クエリ失敗');
             return false;
         }
-        
-        
-        $sql = 'SELECT * FROM art ORDER BY id ASC';
 
-        $sql .= ' LIMIT '.$span .' OFFSET ' .$currentMinNum ;
-//        ↑虫喰いでもやってみて
-        
+        // 2.該当するページに対応する画像を取り出す
+        $sql = 'SELECT * FROM art ORDER BY id ASC';
+        $sql .= ' LIMIT '.$sliderSpan .' OFFSET ' .$currentSliderPosition ;
+        //↑虫喰いでもやってみて
         $data = array();
         $stmt = queryPost($dbh,$sql,$data);
         if($stmt){
             debug('クエリ成功');
             $result['data'] = $stmt->fetchAll();
-            
             debug('クエリで取得した$result'.print_r($result,true));
             return $result;
         }else{
             debug('クエリ失敗');
             return false;
         }
-        
+
+    }catch(Exception $e){
+        error_log('エラー発生：'.$e->getMessage());
+    }
+}
+
+
+function getArtwork($currentMinNum=0, $span=3){
+    try{
+        // 1.すべての画像データを一旦取り込む
+        $dbh = dbConnect();
+        $sql = 'SELECT * FROM art';
+        $data = array();
+        $stmt = queryPost($dbh,$sql,$data);
+        $result['total'] = $stmt->rowCount();
+        $result['totalPage'] = ceil($result['total']/$span);
+
+        if($stmt){
+            debug('クエリ成功');
+            debug('クエリで取得した$result'.print_r($result,true));
+        }else{
+            debug('クエリ失敗');
+            return false;
+        }
+
+        // 2.該当するページに対応する画像を取り出す
+        $sql = 'SELECT * FROM art ORDER BY id ASC';
+        $sql .= ' LIMIT '.$span .' OFFSET ' .$currentMinNum ;
+        //↑虫喰いでもやってみて
+        $data = array();
+        $stmt = queryPost($dbh,$sql,$data);
+        if($stmt){
+            debug('クエリ成功');
+            $result['data'] = $stmt->fetchAll();
+            debug('クエリで取得した$result'.print_r($result,true));
+            return $result;
+        }else{
+            debug('クエリ失敗');
+            return false;
+        }
+
     }catch(Exception $e){
         error_log('エラー発生：'.$e->getMessage());
     }
@@ -242,7 +279,7 @@ function getArtwork($currentMinNum=0, $span=3){
 
 function getArtworkOnly($p_id){
     try{
-        
+
         $dbh = dbConnect();
         $sql = 'SELECT * FROM art WHERE id = :p_id';
         $data = array(':p_id' => $p_id);
@@ -278,10 +315,11 @@ function appendGetParam($arr_del_key = array()){
     if(!empty($_GET)){
         $str = '?';
         foreach ($_GET as $key => $value){
-            if(!in_array($key,$arr_del_key,true)){
+            if(!in_array($key, $arr_del_key, true)){
                 $str .= $key .'=' .$value .'&';
             }
         }
+        // 後ろから数えて一文字以降を消去（＆を消す）
         $str = mb_substr($str,0,-1,'UTF-8');
         return $str;
     }
@@ -314,7 +352,7 @@ function isFavorite($u_id,$a_id){
             debug('お気に入りなし');
             return false;
         }
-        
+
     }catch(Exception $e){
         error_log('エラー発生：'.$e->getMessage());
     }

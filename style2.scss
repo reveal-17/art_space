@@ -1,0 +1,98 @@
+.albemSlider {
+    position: relative;
+    height: 500px;
+    margin: 50px;
+
+    &__slides {
+        overflow: hidden;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 500px;
+        width: 500px;
+    }
+
+    &__inner {
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+        img {
+            display: block;
+            height: 500px;
+            max-width: 500px;
+            position: absolute;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+    }
+
+    &__prev, &__next {
+        color: #000;
+        font-weight: bold;
+        position: absolute;
+        top: 250px;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-decoration: none;
+        text-align: center;
+        height: 100%;
+        width: 44px;
+
+        span {
+            position: absolute;
+            top: 250px;
+        }
+
+        &:hover {
+            background: rgba($color: #333, $alpha: .05);
+            transition: all 1s ease;
+        }
+    }
+
+    &__prev {
+        left: 0;
+    }
+
+    &__next {
+        right: 0;
+    }
+
+    &__nav {
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        text-align: center;
+        width: 100%;
+
+        a {
+            background: #ccc;
+            display: inline-block;
+            margin: 0 5px;
+            border-radius: 50%;
+            height: 15px;
+            width: 15px;
+
+            &.active {
+                background: #333;
+                cursor: default;
+            }
+        }
+    }
+}
+
+.albemArtworkList {
+    background: #F7F7F7;
+}

@@ -1,0 +1,100 @@
+.albemSlider {
+  position: relative;
+  height: 500px;
+  margin: 50px;
+}
+
+.albemSlider__slides {
+  overflow: hidden;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 500px;
+  width: 500px;
+}
+
+.albemSlider__inner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.albemSlider__inner img {
+  display: block;
+  height: 500px;
+  max-width: 500px;
+  position: absolute;
+}
+
+.albemSlider__inner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.albemSlider__prev, .albemSlider__next {
+  color: #000;
+  font-weight: bold;
+  position: absolute;
+  top: 250px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-decoration: none;
+  text-align: center;
+  height: 100%;
+  width: 44px;
+}
+
+.albemSlider__prev span, .albemSlider__next span {
+  position: absolute;
+  top: 250px;
+}
+
+.albemSlider__prev:hover, .albemSlider__next:hover {
+  background: rgba(51, 51, 51, 0.05);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.albemSlider__prev {
+  left: 0;
+}
+
+.albemSlider__next {
+  right: 0;
+}
+
+.albemSlider__nav {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.albemSlider__nav a {
+  background: #ccc;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.albemSlider__nav a.active {
+  background: #333;
+  cursor: default;
+}
+
+.albemArtworkList {
+  background: #F7F7F7;
+}
+/*# sourceMappingURL=style2.css.map */
