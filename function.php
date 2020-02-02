@@ -238,7 +238,7 @@ function getArtworkSlider($currentSliderPosition, $sliderSpan){
 }
 
 
-function getArtwork($currentMinNum=0, $span=3){
+function getArtwork($currentMinNum=0, $span=9){
     try{
         // 1.すべての画像データを一旦取り込む
         $dbh = dbConnect();

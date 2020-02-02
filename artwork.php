@@ -68,7 +68,7 @@ require('header.php');
     justify-content: space-between;
 }
 
-    
+
 .two .favorite{
     color: #f6f5f4;
 }
@@ -162,7 +162,7 @@ main p{
     </section>
 
     <section class='two'>
-     
+
      <div class='two-itemone'>
         <i class="fas fa-heart js_favorite favorite fa-2x" aria-hidden="true" data-artid='<?php echo $artwork['id']; ?>'></i>
 <!--        クラス追加するとバグる-->

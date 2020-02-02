@@ -93,29 +93,7 @@ header{
 
 /*           =========================top-img=================================*/
 
-.top-img img{
-    width: 100%;
-    height: auto;
-
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    transition: .5s ease-in-out;
-}
-
-.top-img{
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 80px;
-}
-
-.top-img:hover img{
-
-
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
-    -webkit-transition: .3s ease-in-out;
-    transition: .5s ease-in-out;
-}
+/* scssに以降 */
 
 
 /*           ================================toppage-btn======================================*/
@@ -276,13 +254,13 @@ div.un-form{
 
 .three{
   /* background: gold; */
-  width: 50%;
-  height: 500px;
-  position: absolute;
-  top: 160px;
-  left: 490px;
-  box-sizing: border-box;
-
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 160px;
+    left: 490px;
+    box-sizing: border-box;
+    padding-left: 10px;
 }
 
 
@@ -373,7 +351,7 @@ main p{
   filter: sepia(0);
 }
 
-.paging{
+/* .paging{
   list-style: none;
   overflow: hidden;
 }
@@ -403,8 +381,8 @@ main p{
 
 .paging li:hover{
   background-color: rgba(250,235, 215, 0.6);
-  transition: background-color 1s;
-}
+  transition: background-color 1s; */
+/* } */
 
 
 
@@ -434,16 +412,7 @@ main p{
 
 /*           ==================================footer====================================*/
 
-footer{
-
-   text-align: center;
-   background: #333;
-   color: white;
-   width: 100%;
-   height: 40px;
-   line-height: 40px;
-}
-
+/* scssに以降 */
 
 /*=====================================エラーメッセージ========================================*/
 

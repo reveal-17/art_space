@@ -1,21 +1,18 @@
 <?php
-
 require('function.php');
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
 debug('トップページ');
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
 
-
 if(!empty($_POST)){
-    if(!empty($_SESSION['user_id'])){
+    if (!empty($_SESSION['user_id'])){
         debug('ログインしています');
         header('Location:artGallery.php');
-    }else{
+    } else {
         debug('ログインしていません');
         header('Location:login.php');
     }
 }
-
 ?>
 
 <?php
@@ -26,23 +23,53 @@ require('head.php');
 <?php
 require('header.php');
 ?>
-        
-        <main class='site-width'>
-           <p id='js-show-msg' style='display:none;' class='msg-slide'></p>
-           
-            <div class='top-img'>
-                <img src="img/mujina.JPG" alt="">
-            </div>
-            
-<!--
-            <form class='btn' method=''>
-            <input id='submit-btn' type="submit" name='submit' value='Art-Gallery'>
-            </form>
--->
 
-        </main>
-        
-        
+<div class='albemTop'>
+    <p id='js-show-msg' style='display:none;' class='msg-slide'></p>
+    <div class='albemTop__mainImg'>
+        <img src="img/mujina.JPG" alt="">
+    </div>
+
+    <div class="albemTopInfo">
+        <div class="albemTopInfoTab">
+            <input id="news" type="radio" name="tab_item" checked>
+            <label class="albemTopInfoTab__item" for="news">News</label>
+            <input id="history" type="radio" name="tab_item">
+            <label class="albemTopInfoTab__item" for="history">History</label>
+            <div class="albemTopInfoTab__content" id="news-content">
+                <div class="tab_content_description">
+                    <p class="c-txtsp">2019/12/25 : Released our first album titled "「」" </p>
+                    <p class="c-txtsp">2019/4/21 : Released our first single titled "箱庭より", "神話" </p>
+                </div>
+            </div>
+            <div class="albemTopInfoTab__content" id="history-content">
+                <div class="tab_content_description">
+                <p class="c-txtsp">Albem is a Japanese music project formed in 2018.</p>
+                </div>
+            </div>
+            <div class="albemTopInfoTab__content tab_content" id="design_content">
+                <div class="tab_content_description">
+                <p class="c-txtsp">デザインの内容がここに入ります</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="albemTopArtwork">
+        <p class="albemTopArtwork__title">Discograpy</p>
+        <div class="albemTopArtwork__wrapper">
+            <img class="albemTopArtwork__wrapper--first" src="img/bracket.jpg" alt="">
+        </div>
+        <div class="albemTopArtwork__wrapper">
+            <img class="albemTopArtwork__wrapper--second" src="img/bracket.jpg" alt="">
+        </div>
+        <div class="albemTopArtwork__wrapper">
+            <img class="albemTopArtwork__wrapper--third" src="img/bracket.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
 <?php
 require('footer.php');
 ?>
