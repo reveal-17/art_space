@@ -1,4 +1,5 @@
 $(function() {
+    // -----------------------------画像スライダー-----------------------------
     $('.js-slides').append('<ul class="js-pager"><li><a href="#" class="albemSlider__prev js-transition js-prev"><span>&lt;</span></a></li><li><a href="#" class="albemSlider__next js-transition"><span>&gt;</span></a></li></ul><div class="albemSlider__nav js-nav"></div>');
     const $pager = $('.js-pager'),
     $nav = $('.js-nav'),
@@ -69,4 +70,12 @@ $(function() {
         mouseover: timerStop,
         mouseout: timerStart
     });
+
+
+// -------------------------------アコーディオンメニュー----------------------------------------------------
+
+function accordionMenu() {
+    $(this).toggleClass('.ac-active').next().slideToggle(300);
+}
+$('.js-toggle').click(accordionMenu);
 });

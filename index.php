@@ -1,18 +1,18 @@
 <?php
 require('function.php');
-debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
-debug('トップページ');
-debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+// debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+// debug('トップページ');
+// debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
 
-if(!empty($_POST)){
-    if (!empty($_SESSION['user_id'])){
-        debug('ログインしています');
-        header('Location:artGallery.php');
-    } else {
-        debug('ログインしていません');
-        header('Location:login.php');
-    }
-}
+// if(!empty($_POST)){
+//     if (!empty($_SESSION['user_id'])){
+//         debug('ログインしています');
+//         header('Location:artGallery.php');
+//     } else {
+//         debug('ログインしていません');
+//         header('Location:login.php');
+//     }
+// }
 ?>
 
 <?php
@@ -56,7 +56,7 @@ require('header.php');
     </div>
 
     <div class="albemTopArtwork">
-        <p class="albemTopArtwork__title">Discograpy</p>
+        <p class="c-heading1">Discograpy</p>
         <div class="albemTopArtwork__wrapper">
             <img class="albemTopArtwork__wrapper--first" src="img/bracket.jpg" alt="">
         </div>
@@ -65,6 +65,42 @@ require('header.php');
         </div>
         <div class="albemTopArtwork__wrapper">
             <img class="albemTopArtwork__wrapper--third" src="img/bracket.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="albemTopPrize">
+        <p class="c-heading1">Prize</p>
+        <div class="albemTopPrize__background"></div>
+        <div class="albemTopPrize__accordion">
+            <ul class="albemTopPrize__accordionContent">
+                <li class="albemTopPrize__accordionItem">
+                    <a class="albemTopPrize__accordionItem--toggle js-toggle">hao123</a>
+                    <ul class="albemTopPrize__accordionItem--child">
+                        <li>baidu</li>
+                        <li>baidu</li>
+                        <li>baidu</li>
+                        <li>baidu</li>
+                    </ul>
+                </li>
+                <li class="albemTopPrize__accordionItem">
+                    <a class="albemTopPrize__accordionItem--toggle js-toggle">hao123</a>
+                    <ul class="albemTopPrize__accordionItem--child">
+                        <li>baidu</li>
+                        <li>baidu</li>
+                        <li>baidu</li>
+                        <li>baidu</li>
+                    </ul>
+                </li>
+                <li class="albemTopPrize__accordionItem">
+                    <a class="albemTopPrize__accordionItem--toggle js-toggle">hao123</a>
+                    <ul class="albemTopPrize__accordionItem--child">
+                        <li>baidu</li>
+                        <li>baidu</li>
+                        <li>baidu</li>
+                        <li>baidu</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
