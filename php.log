@@ -65169,3 +65169,3831 @@ Stack trace:
 [02-Feb-2020 06:17:20 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
 [02-Feb-2020 06:17:20 UTC] デバッグ：トップページ
 [02-Feb-2020 06:17:20 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:50:57 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:50:57 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:50:57 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:50:57 UTC] デバッグ：アートギャラリー
+[02-Feb-2020 07:50:57 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:50:57 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:50:57 UTC] デバッグ：セッションID：mn0lmb3sc332buregfv4k1hb67
+[02-Feb-2020 07:50:57 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580629857
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:50:57 UTC] デバッグ：現在日時タイムスタンプ：1580629857
+[02-Feb-2020 07:50:57 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583221857
+[02-Feb-2020 07:50:57 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 3
+)
+
+[02-Feb-2020 07:50:57 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:50:57 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 6
+)
+
+[02-Feb-2020 07:50:57 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:50:57 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:51:22 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:51:22 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:51:22 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:51:22 UTC] デバッグ：アートギャラリー
+[02-Feb-2020 07:51:22 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:51:22 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:51:22 UTC] デバッグ：セッションID：5sr1kd2iuhkacubm31slldh2nl
+[02-Feb-2020 07:51:22 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580629882
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:51:22 UTC] デバッグ：現在日時タイムスタンプ：1580629882
+[02-Feb-2020 07:51:22 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583221882
+[02-Feb-2020 07:51:22 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 3
+)
+
+[02-Feb-2020 07:51:22 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 18
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [name] => eye
+                    [comment] => eye
+                    [picture] => img/eye.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:08
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:37
+                )
+
+            [2] => Array
+                (
+                    [id] => 26
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:39
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:51:22 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 6
+)
+
+[02-Feb-2020 07:51:22 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:22 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:51:25 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:51:25 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:51:25 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:51:25 UTC] デバッグ：アートギャラリー
+[02-Feb-2020 07:51:25 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:51:25 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:51:25 UTC] デバッグ：セッションID：bls6jqq3lboamot18hjvst0l51
+[02-Feb-2020 07:51:25 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580629885
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:51:25 UTC] デバッグ：現在日時タイムスタンプ：1580629885
+[02-Feb-2020 07:51:25 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583221885
+[02-Feb-2020 07:51:25 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 3
+)
+
+[02-Feb-2020 07:51:25 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 9
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 15
+                    [name] => 海に
+                    [comment] => 海に
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [1] => Array
+                (
+                    [id] => 16
+                    [name] => 跡
+                    [comment] => 跡
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:19:08
+                )
+
+            [2] => Array
+                (
+                    [id] => 17
+                    [name] => 名
+                    [comment] => 名
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:19:08
+                )
+
+            [3] => Array
+                (
+                    [id] => 18
+                    [name] => 時間
+                    [comment] => 時間
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:19:35
+                )
+
+            [4] => Array
+                (
+                    [id] => 19
+                    [name] => ある生活
+                    [comment] => ある生活
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-17 00:00:00
+                    [update_time] => 2019-08-17 17:08:23
+                )
+
+            [5] => Array
+                (
+                    [id] => 20
+                    [name] => leaf
+                    [comment] => leaf
+                    [picture] => img/leaf.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:17:16
+                )
+
+            [6] => Array
+                (
+                    [id] => 21
+                    [name] => leaf
+                    [comment] => leaf
+                    [picture] => img/leaf.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:03
+                )
+
+            [7] => Array
+                (
+                    [id] => 22
+                    [name] => eye
+                    [comment] => eye
+                    [picture] => img/eye.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:03
+                )
+
+            [8] => Array
+                (
+                    [id] => 23
+                    [name] => leaf
+                    [comment] => leaf
+                    [picture] => img/leaf.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:08
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:51:25 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 6
+)
+
+[02-Feb-2020 07:51:25 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:25 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:51:27 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:51:27 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:51:27 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:51:27 UTC] デバッグ：アートギャラリー
+[02-Feb-2020 07:51:27 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:51:27 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:51:27 UTC] デバッグ：セッションID：j7gl6pr35jnh10m0b848rkko74
+[02-Feb-2020 07:51:27 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580629887
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:51:27 UTC] デバッグ：現在日時タイムスタンプ：1580629887
+[02-Feb-2020 07:51:27 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583221887
+[02-Feb-2020 07:51:27 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 3
+)
+
+[02-Feb-2020 07:51:27 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 18
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [name] => eye
+                    [comment] => eye
+                    [picture] => img/eye.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:08
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:37
+                )
+
+            [2] => Array
+                (
+                    [id] => 26
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:39
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:51:27 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 6
+)
+
+[02-Feb-2020 07:51:27 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:51:27 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 21
+    [totalPage] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:53:08 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:53:08 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:53:08 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:53:08 UTC] デバッグ：アートギャラリー
+[02-Feb-2020 07:53:08 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:53:08 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:53:08 UTC] デバッグ：セッションID：qj9p31u088o8lspaksgvihf33u
+[02-Feb-2020 07:53:08 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580629988
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:53:08 UTC] デバッグ：現在日時タイムスタンプ：1580629988
+[02-Feb-2020 07:53:08 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583221988
+[02-Feb-2020 07:53:08 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[02-Feb-2020 07:53:08 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 18
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [name] => eye
+                    [comment] => eye
+                    [picture] => img/eye.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:08
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:37
+                )
+
+            [2] => Array
+                (
+                    [id] => 26
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:39
+                )
+
+            [3] => Array
+                (
+                    [id] => 27
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/albem.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:43
+                )
+
+            [4] => Array
+                (
+                    [id] => 28
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/albem.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:46
+                )
+
+            [5] => Array
+                (
+                    [id] => 29
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/albem.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:43
+                )
+
+            [6] => Array
+                (
+                    [id] => 30
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/albem.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:46
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:53:08 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[02-Feb-2020 07:53:08 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:53:08 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:54:09 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:54:09 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:54:09 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:09 UTC] デバッグ：アートギャラリー
+[02-Feb-2020 07:54:09 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:09 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:09 UTC] デバッグ：セッションID：gnhjk461nkpc7fdvamvki08rje
+[02-Feb-2020 07:54:09 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580630049
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:54:09 UTC] デバッグ：現在日時タイムスタンプ：1580630049
+[02-Feb-2020 07:54:09 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583222049
+[02-Feb-2020 07:54:09 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[02-Feb-2020 07:54:09 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 18
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [name] => eye
+                    [comment] => eye
+                    [picture] => img/eye.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:08
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:37
+                )
+
+            [2] => Array
+                (
+                    [id] => 26
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:39
+                )
+
+            [3] => Array
+                (
+                    [id] => 27
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/bracket.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:43
+                )
+
+            [4] => Array
+                (
+                    [id] => 28
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/bracket.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:46
+                )
+
+            [5] => Array
+                (
+                    [id] => 29
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/bracket.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:43
+                )
+
+            [6] => Array
+                (
+                    [id] => 30
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/bracket.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:46
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:54:09 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[02-Feb-2020 07:54:09 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:09 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:54:19 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:19 UTC] デバッグ：ログアウトします
+[02-Feb-2020 07:54:19 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:19 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:19 UTC] デバッグ：セッションID：9s2t84d2sa0j68a4t0jf81bg2s
+[02-Feb-2020 07:54:19 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580630049
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:54:19 UTC] デバッグ：現在日時タイムスタンプ：1580630059
+[02-Feb-2020 07:54:19 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583222049
+[02-Feb-2020 07:54:19 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:54:19 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:54:19 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:19 UTC] デバッグ：ログインページ
+[02-Feb-2020 07:54:19 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:19 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:19 UTC] デバッグ：セッションID：ig33nigbi1up51egoq4scrji1v
+[02-Feb-2020 07:54:19 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Feb-2020 07:54:19 UTC] デバッグ：現在日時タイムスタンプ：1580630059
+[02-Feb-2020 07:54:19 UTC] デバッグ：ログイン経験なし
+[02-Feb-2020 07:54:28 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:28 UTC] デバッグ：トップページ
+[02-Feb-2020 07:54:28 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:31 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:31 UTC] デバッグ：ログインページ
+[02-Feb-2020 07:54:31 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:31 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:31 UTC] デバッグ：セッションID：i4hkivo9k5ppllecklhl62m2ll
+[02-Feb-2020 07:54:31 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Feb-2020 07:54:31 UTC] デバッグ：現在日時タイムスタンプ：1580630071
+[02-Feb-2020 07:54:31 UTC] デバッグ：ログイン経験なし
+[02-Feb-2020 07:54:32 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:32 UTC] デバッグ：トップページ
+[02-Feb-2020 07:54:32 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:32 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:32 UTC] デバッグ：ログインページ
+[02-Feb-2020 07:54:32 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:32 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:32 UTC] デバッグ：セッションID：an9ucgtbnk775i2ravoq3u2ag6
+[02-Feb-2020 07:54:32 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Feb-2020 07:54:32 UTC] デバッグ：現在日時タイムスタンプ：1580630072
+[02-Feb-2020 07:54:32 UTC] デバッグ：ログイン経験なし
+[02-Feb-2020 07:54:33 UTC] デバッグ：ログイン経験なし
+[02-Feb-2020 07:54:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:33 UTC] デバッグ：アートギャラリー
+[02-Feb-2020 07:54:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:33 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:33 UTC] デバッグ：セッションID：riggg4rn9m5qtd89edbicrcrsg
+[02-Feb-2020 07:54:33 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Feb-2020 07:54:33 UTC] デバッグ：現在日時タイムスタンプ：1580630073
+[02-Feb-2020 07:54:33 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[02-Feb-2020 07:54:33 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 18
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 24
+                    [name] => eye
+                    [comment] => eye
+                    [picture] => img/eye.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:08
+                )
+
+            [1] => Array
+                (
+                    [id] => 25
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:37
+                )
+
+            [2] => Array
+                (
+                    [id] => 26
+                    [name] => shade
+                    [comment] => shade
+                    [picture] => img/shade.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:39
+                )
+
+            [3] => Array
+                (
+                    [id] => 27
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/bracket.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:43
+                )
+
+            [4] => Array
+                (
+                    [id] => 28
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/bracket.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:46
+                )
+
+            [5] => Array
+                (
+                    [id] => 29
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/bracket.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:43
+                )
+
+            [6] => Array
+                (
+                    [id] => 30
+                    [name] => albem
+                    [comment] => albem
+                    [picture] => img/bracket.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-02 00:00:00
+                    [update_time] => 2020-02-02 16:52:46
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:54:33 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[02-Feb-2020 07:54:33 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:54:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:33 UTC] デバッグ：ログインページ
+[02-Feb-2020 07:54:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:33 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:33 UTC] デバッグ：セッションID：an89qcf8el0cca9mu440dfdtv1
+[02-Feb-2020 07:54:33 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Feb-2020 07:54:33 UTC] デバッグ：現在日時タイムスタンプ：1580630073
+[02-Feb-2020 07:54:33 UTC] デバッグ：ログイン経験なし
+[02-Feb-2020 07:54:33 UTC] デバッグ：ログイン経験なし
+[02-Feb-2020 07:54:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:33 UTC] デバッグ：アートギャラリー
+[02-Feb-2020 07:54:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:33 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:33 UTC] デバッグ：セッションID：8k576cnheeu5o7255vs0b0qjqo
+[02-Feb-2020 07:54:33 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Feb-2020 07:54:33 UTC] デバッグ：現在日時タイムスタンプ：1580630073
+[02-Feb-2020 07:54:33 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:54:33 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[02-Feb-2020 07:54:34 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 9
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 15
+                    [name] => 海に
+                    [comment] => 海に
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [1] => Array
+                (
+                    [id] => 16
+                    [name] => 跡
+                    [comment] => 跡
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:19:08
+                )
+
+            [2] => Array
+                (
+                    [id] => 17
+                    [name] => 名
+                    [comment] => 名
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:19:08
+                )
+
+            [3] => Array
+                (
+                    [id] => 18
+                    [name] => 時間
+                    [comment] => 時間
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:19:35
+                )
+
+            [4] => Array
+                (
+                    [id] => 19
+                    [name] => ある生活
+                    [comment] => ある生活
+                    [picture] => img/mosaic.jpeg
+                    [link] => 
+                    [time] => 0
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-17 00:00:00
+                    [update_time] => 2019-08-17 17:08:23
+                )
+
+            [5] => Array
+                (
+                    [id] => 20
+                    [name] => leaf
+                    [comment] => leaf
+                    [picture] => img/leaf.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:17:16
+                )
+
+            [6] => Array
+                (
+                    [id] => 21
+                    [name] => leaf
+                    [comment] => leaf
+                    [picture] => img/leaf.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:03
+                )
+
+            [7] => Array
+                (
+                    [id] => 22
+                    [name] => eye
+                    [comment] => eye
+                    [picture] => img/eye.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:03
+                )
+
+            [8] => Array
+                (
+                    [id] => 23
+                    [name] => leaf
+                    [comment] => leaf
+                    [picture] => img/leaf.jpg
+                    [link] => 
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 20:18:08
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:54:34 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[02-Feb-2020 07:54:34 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:34 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:54:34 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:34 UTC] デバッグ：ログインページ
+[02-Feb-2020 07:54:34 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:34 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:34 UTC] デバッグ：セッションID：44lsjujk8757egt5b6d4ddu5jo
+[02-Feb-2020 07:54:34 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Feb-2020 07:54:34 UTC] デバッグ：現在日時タイムスタンプ：1580630074
+[02-Feb-2020 07:54:34 UTC] デバッグ：ログイン経験なし
+[02-Feb-2020 07:54:40 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:40 UTC] デバッグ：ログインページ
+[02-Feb-2020 07:54:40 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:40 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:40 UTC] デバッグ：セッションID：367hgr7o0qbh4se0vkvlkhtv09
+[02-Feb-2020 07:54:40 UTC] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Feb-2020 07:54:40 UTC] デバッグ：現在日時タイムスタンプ：1580630080
+[02-Feb-2020 07:54:40 UTC] デバッグ：ログイン経験なし
+[02-Feb-2020 07:54:40 UTC] デバッグ：$sqlの中身：SELECT password,id  FROM users WHERE email = :email
+[02-Feb-2020 07:54:40 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:40 UTC] デバッグ：クエリ結果の中身$result：Array
+(
+    [password] => $2y$10$Jz8aVndYUGdxZAWkfWcwzOvbUWkgBTPkAcfaepikFb4kKn.OerVS.
+    [id] => 4
+)
+
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリ成功＆パスワードあり
+[02-Feb-2020 07:54:41 UTC] デバッグ：パスワードが一致しました
+[02-Feb-2020 07:54:41 UTC] デバッグ：自動ログインにチェックがあります
+[02-Feb-2020 07:54:41 UTC] デバッグ：アートギャラリーへ遷移します
+[02-Feb-2020 07:54:41 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:54:41 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:54:41 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:41 UTC] デバッグ：アートギャラリー
+[02-Feb-2020 07:54:41 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:41 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:41 UTC] デバッグ：セッションID：gq60su3n1b6f6l9u6momltbfcm
+[02-Feb-2020 07:54:41 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580630081
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:54:41 UTC] デバッグ：現在日時タイムスタンプ：1580630081
+[02-Feb-2020 07:54:41 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583222081
+[02-Feb-2020 07:54:41 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[02-Feb-2020 07:54:41 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:54:41 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[02-Feb-2020 07:54:41 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリ成功。
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリ成功
+[02-Feb-2020 07:54:41 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[02-Feb-2020 07:54:45 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:45 UTC] デバッグ：退会機能ページ
+[02-Feb-2020 07:54:45 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:45 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:45 UTC] デバッグ：セッションID：goousc7pg480nco0i81quj10eo
+[02-Feb-2020 07:54:45 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580630081
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:54:45 UTC] デバッグ：現在日時タイムスタンプ：1580630085
+[02-Feb-2020 07:54:45 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583222081
+[02-Feb-2020 07:54:45 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:54:45 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:54:46 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:46 UTC] デバッグ：パスワード変更ページ
+[02-Feb-2020 07:54:46 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:46 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Feb-2020 07:54:46 UTC] デバッグ：セッションID：r915ukm99h9fsvk98fa7vng03b
+[02-Feb-2020 07:54:46 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580630085
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[02-Feb-2020 07:54:46 UTC] デバッグ：現在日時タイムスタンプ：1580630086
+[02-Feb-2020 07:54:46 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583222085
+[02-Feb-2020 07:54:46 UTC] デバッグ：ログイン経験あり
+[02-Feb-2020 07:54:46 UTC] デバッグ：ログイン有効期限内です
+[02-Feb-2020 07:54:51 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Feb-2020 07:54:51 UTC] デバッグ：トップページ
+[02-Feb-2020 07:54:51 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:19:56 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:19:56 UTC] デバッグ：トップページ
+[03-Feb-2020 12:19:56 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:21:00 UTC] デバッグ：ログイン経験あり
+[03-Feb-2020 12:21:00 UTC] デバッグ：ログイン有効期限内です
+[03-Feb-2020 12:21:00 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:21:00 UTC] デバッグ：アートギャラリー
+[03-Feb-2020 12:21:00 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:21:00 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Feb-2020 12:21:00 UTC] デバッグ：セッションID：t1ej7vm5ir0424g9ouk5umgvv1
+[03-Feb-2020 12:21:00 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580732460
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[03-Feb-2020 12:21:00 UTC] デバッグ：現在日時タイムスタンプ：1580732460
+[03-Feb-2020 12:21:00 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583324460
+[03-Feb-2020 12:21:00 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[03-Feb-2020 12:21:00 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:21:00 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[03-Feb-2020 12:21:00 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:21:00 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:21:49 UTC] デバッグ：ログイン経験あり
+[03-Feb-2020 12:21:49 UTC] デバッグ：ログイン有効期限内です
+[03-Feb-2020 12:21:49 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:21:49 UTC] デバッグ：アートギャラリー
+[03-Feb-2020 12:21:49 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:21:49 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Feb-2020 12:21:49 UTC] デバッグ：セッションID：rshvueprclcel4npqropns1tn9
+[03-Feb-2020 12:21:49 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580732509
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[03-Feb-2020 12:21:49 UTC] デバッグ：現在日時タイムスタンプ：1580732509
+[03-Feb-2020 12:21:49 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583324509
+[03-Feb-2020 12:21:49 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[03-Feb-2020 12:21:49 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:21:49 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[03-Feb-2020 12:21:49 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:21:49 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:22:01 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:22:01 UTC] デバッグ：トップページ
+[03-Feb-2020 12:22:01 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:22:10 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:22:10 UTC] デバッグ：トップページ
+[03-Feb-2020 12:22:10 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:22:29 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:22:29 UTC] デバッグ：トップページ
+[03-Feb-2020 12:22:29 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:22:40 UTC] デバッグ：ログイン経験あり
+[03-Feb-2020 12:22:40 UTC] デバッグ：ログイン有効期限内です
+[03-Feb-2020 12:22:40 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:22:40 UTC] デバッグ：アートギャラリー
+[03-Feb-2020 12:22:40 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:22:40 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Feb-2020 12:22:40 UTC] デバッグ：セッションID：cpi8j957vaabumq0t14ffh3kp8
+[03-Feb-2020 12:22:40 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580732560
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[03-Feb-2020 12:22:40 UTC] デバッグ：現在日時タイムスタンプ：1580732560
+[03-Feb-2020 12:22:40 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583324560
+[03-Feb-2020 12:22:40 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[03-Feb-2020 12:22:40 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:22:40 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[03-Feb-2020 12:22:40 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:22:40 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:23:34 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:23:34 UTC] デバッグ：トップページ
+[03-Feb-2020 12:23:34 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:24:45 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:24:45 UTC] デバッグ：トップページ
+[03-Feb-2020 12:24:45 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:24:47 UTC] デバッグ：ログイン経験あり
+[03-Feb-2020 12:24:47 UTC] デバッグ：ログイン有効期限内です
+[03-Feb-2020 12:24:47 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:24:47 UTC] デバッグ：アートギャラリー
+[03-Feb-2020 12:24:47 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:24:47 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Feb-2020 12:24:47 UTC] デバッグ：セッションID：4v117qfb278tqjao6svkgvrj77
+[03-Feb-2020 12:24:47 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580732687
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[03-Feb-2020 12:24:47 UTC] デバッグ：現在日時タイムスタンプ：1580732687
+[03-Feb-2020 12:24:47 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583324687
+[03-Feb-2020 12:24:47 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[03-Feb-2020 12:24:47 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:24:47 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[03-Feb-2020 12:24:47 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:24:47 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:25:39 UTC] デバッグ：ログイン経験あり
+[03-Feb-2020 12:25:39 UTC] デバッグ：ログイン有効期限内です
+[03-Feb-2020 12:25:39 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:25:39 UTC] デバッグ：アートギャラリー
+[03-Feb-2020 12:25:39 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:25:39 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Feb-2020 12:25:39 UTC] デバッグ：セッションID：vensrtasfmkhblrp3ss9a3nqvn
+[03-Feb-2020 12:25:39 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580732739
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[03-Feb-2020 12:25:39 UTC] デバッグ：現在日時タイムスタンプ：1580732739
+[03-Feb-2020 12:25:39 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583324739
+[03-Feb-2020 12:25:39 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[03-Feb-2020 12:25:39 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:25:39 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[03-Feb-2020 12:25:39 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:25:39 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:26:52 UTC] デバッグ：ログイン経験あり
+[03-Feb-2020 12:26:52 UTC] デバッグ：ログイン有効期限内です
+[03-Feb-2020 12:26:52 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:26:52 UTC] デバッグ：アートギャラリー
+[03-Feb-2020 12:26:52 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:26:52 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Feb-2020 12:26:52 UTC] デバッグ：セッションID：pbdkv6hc1s2s21ls2dkep37vsd
+[03-Feb-2020 12:26:52 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580732812
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[03-Feb-2020 12:26:52 UTC] デバッグ：現在日時タイムスタンプ：1580732812
+[03-Feb-2020 12:26:52 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583324812
+[03-Feb-2020 12:26:52 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[03-Feb-2020 12:26:52 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:26:52 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[03-Feb-2020 12:26:52 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:26:52 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:26:54 UTC] デバッグ：ログイン経験あり
+[03-Feb-2020 12:26:54 UTC] デバッグ：ログイン有効期限内です
+[03-Feb-2020 12:26:54 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:26:54 UTC] デバッグ：アートギャラリー
+[03-Feb-2020 12:26:54 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:26:54 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Feb-2020 12:26:54 UTC] デバッグ：セッションID：jvj40ptb78tke03p30qrpar71n
+[03-Feb-2020 12:26:54 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580732814
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[03-Feb-2020 12:26:54 UTC] デバッグ：現在日時タイムスタンプ：1580732814
+[03-Feb-2020 12:26:54 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583324814
+[03-Feb-2020 12:26:54 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[03-Feb-2020 12:26:54 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:26:54 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[03-Feb-2020 12:26:54 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:26:54 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:28:41 UTC] デバッグ：ログイン経験あり
+[03-Feb-2020 12:28:41 UTC] デバッグ：ログイン有効期限内です
+[03-Feb-2020 12:28:41 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:28:41 UTC] デバッグ：アートギャラリー
+[03-Feb-2020 12:28:41 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:28:41 UTC] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[03-Feb-2020 12:28:41 UTC] デバッグ：セッションID：1k9p8hj1cu6ll3o0vjcgbfpfuj
+[03-Feb-2020 12:28:41 UTC] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1580732921
+    [user_id] => 4
+    [login_limit] => 2592000
+)
+
+[03-Feb-2020 12:28:41 UTC] デバッグ：現在日時タイムスタンプ：1580732921
+[03-Feb-2020 12:28:41 UTC] デバッグ：ログイン期限日時タイムスタンプ：1583324921
+[03-Feb-2020 12:28:41 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+)
+
+[03-Feb-2020 12:28:41 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 9 OFFSET 0
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+            [4] => Array
+                (
+                    [id] => 10
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:00
+                )
+
+            [5] => Array
+                (
+                    [id] => 11
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:31
+                )
+
+            [6] => Array
+                (
+                    [id] => 12
+                    [name] => 「。」
+                    [comment] => 「。」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:39:33
+                )
+
+            [7] => Array
+                (
+                    [id] => 13
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:12
+                )
+
+            [8] => Array
+                (
+                    [id] => 14
+                    [name] => 「...」
+                    [comment] => 「...」
+
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:40:14
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:28:41 UTC] デバッグ：$sqlの中身：SELECT * FROM art
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+)
+
+[03-Feb-2020 12:28:41 UTC] デバッグ：$sqlの中身：SELECT * FROM art ORDER BY id ASC LIMIT 4 OFFSET 0
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリ成功。
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリ成功
+[03-Feb-2020 12:28:41 UTC] デバッグ：クエリで取得した$resultArray
+(
+    [total] => 25
+    [totalPage] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => 箱庭より
+                    [comment] => 箱庭ではない、ここ。
+                    [picture] => img/hakoniwayori.jpg
+                    [link] => https://linkco.re/tZXnRhgy
+                    [time] => 4:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:14:10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => 神話
+                    [comment] => こちら側とあちら側。
+                    [picture] => img/shinwa.jpg
+                    [link] => https://linkco.re/zRnRvdpb
+                    [time] => 3:50
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-15 00:00:00
+                    [update_time] => 2019-08-15 18:18:21
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => mujina
+                    [comment] => mujina
+                    [picture] => img/mujina.jpg
+                    [link] => 
+                    [time] => 
+                    [delete_flg] => 0
+                    [create_date] => 2019-08-19 00:00:00
+                    [update_time] => 2019-08-19 21:35:24
+                )
+
+            [3] => Array
+                (
+                    [id] => 9
+                    [name] => 「、」
+                    [comment] => 「、」
+                    [picture] => img/bracket.jpg
+                    [link] => https://linkco.re/0P00ngc0
+                    [time] => 0:00
+                    [delete_flg] => 0
+                    [create_date] => 2020-02-01 00:00:00
+                    [update_time] => 2020-02-01 14:38:57
+                )
+
+        )
+
+)
+
+[03-Feb-2020 12:28:48 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[03-Feb-2020 12:28:48 UTC] デバッグ：トップページ
+[03-Feb-2020 12:28:48 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[07-Feb-2020 12:52:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[07-Feb-2020 12:52:33 UTC] デバッグ：トップページ
+[07-Feb-2020 12:52:33 UTC] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
