@@ -6,21 +6,21 @@
             </div>
                 <nav class='top-nav'>
                     <ul class='top-list'>
-                       <?php
+                    <?php
                         if(empty($_SESSION['user_id'])){
-                        ?>
+                    ?>
                         <li><a href="signup.php">Sign up</a></li>
                         <li><a href="login.php">Log in</a></li>
-                        <?php
+                    <?php
                         }else{
-                        ?>
+                    ?>
                         <li><a href="artGallery.php">HELL-O</a></li>
                         <li><a href="logout.php">Log out</a></li>
                         <li><a href="changePassword.php">Change Password</a></li>
                         <li><a href="unsubscribe.php">Unsubscribe</a></li>
-                        <?php 
-                        } 
-                        ?>
+                    <?php
+                        }
+                    ?>
                     </ul>
                 </nav>
             </div>

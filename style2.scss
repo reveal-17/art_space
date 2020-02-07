@@ -39,6 +39,21 @@ style.cssを移行中
         }
     }
 
+    &__button {
+        text-align: center;
+        margin-top: $margin-px-96;
+
+        button {
+            font-size: 56px;
+            padding: $margin-px-16 $margin-px-24;
+            color: #fff;
+            background-color: #000;
+            border-radius: 8px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+    }
+
     &Info {
         background-color: #000;
         width: 100%;
@@ -102,6 +117,13 @@ style.cssを移行中
             input:checked + .albemTopInfoTab__item {
             background-color: #000;
             color: #fff;
+            }
+        }
+
+        &__description {
+
+            &Item {
+                margin-top: $margin-px-12;
             }
         }
     }
@@ -176,10 +198,10 @@ style.cssを移行中
                 border: solid 1px #000;
                 position: relative;
                 margin: $margin-px-80 0;
-                padding: $margin-px-12 $margin-px-8;
 
                 &--toggle {
                     display: block;
+                    padding: $margin-px-12 $margin-px-8;
 
                     &:after {
                         position: absolute;
@@ -219,9 +241,13 @@ style.cssを移行中
                     padding: 0 $margin-px-40;
 
                     li {
-                        margin: $margin-px-12 0;
+                        margin-top: $margin-px-12;
                         padding-left: $margin-px-8;
                         border-bottom: dotted 1px #000;
+
+                        &:last-child {
+                            margin-bottom: $margin-px-24;
+                        }
                     }
                 }
             }
@@ -385,7 +411,6 @@ style.cssを移行中
                 color: #fff;
             }
         }
-
     }
 }
 
