@@ -46,11 +46,17 @@ style.cssを移行中
         button {
             font-size: 56px;
             padding: $margin-px-16 $margin-px-24;
-            color: #fff;
-            background-color: #000;
+            color: #000;
+            background-color: #fff;
             border-radius: 8px;
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
             cursor: pointer;
+            transition: all 0.5s linear;
+
+            &:hover {
+                background-color: #000;
+                color: #fff;
+            }
         }
     }
 
@@ -123,7 +129,12 @@ style.cssを移行中
         &__description {
 
             &Item {
-                margin-top: $margin-px-12;
+                margin-top: $margin-px-20;
+                border-bottom: dotted 1px #000;
+
+                &--history {
+                    border-bottom: none;
+                }
             }
         }
     }
@@ -141,6 +152,30 @@ style.cssを移行中
                 flex-direction: column;
                 position: relative;
                 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+                &:hover {
+                    opacity: 1;
+                    -webkit-animation: flash 2s;
+                    animation: flash 2s;
+                    cursor: pointer;
+                }
+
+                @-webkit-keyframes flash {
+                    0% {
+                        opacity: .4;
+                    }
+                    100% {
+                    opacity: 1;
+                    }
+                    }
+                @keyframes flash {
+                    0% {
+                    opacity: .4;
+                    }
+                    100% {
+                    opacity: 1;
+                    }
+                }
             }
 
             &--first {
@@ -167,7 +202,7 @@ style.cssを移行中
         width: 980px;
         margin: $margin-px-160 auto 0;
         position: relative;
-        height: 900px; /*仮おき*/
+        height: 1300px; /*仮おき*/
 
         &__background {
             background-color: #000;
@@ -202,6 +237,12 @@ style.cssを移行中
                 &--toggle {
                     display: block;
                     padding: $margin-px-12 $margin-px-8;
+                    transition: all 0.5s linear;
+
+                    &:hover {
+                        background-color: #000;
+                        color: #fff;
+                    }
 
                     &:after {
                         position: absolute;
@@ -215,10 +256,10 @@ style.cssを移行中
                         -ms-transform: rotate(90deg);
                         -webkit-transform: rotate(90deg);
                         transform: rotate(90deg);
-                        -moz-transition: all, 0.25s, linear;
-                        -o-transition: all, 0.25s, linear;
-                        -webkit-transition: all, 0.25s, linear;
-                        transition: all, 0.25s, linear;
+                        -moz-transition: all, 0.5s, linear;
+                        -o-transition: all, 0.5s, linear;
+                        -webkit-transition: all, 0.5s, linear;
+                        transition: all, 0.5s, linear;
                     }
                 }
 
@@ -394,7 +435,7 @@ style.cssを移行中
         width: 100%;
         font-size: 24px;
 
-        li{
+        li {
             display: inline-block;
             margin: $margin-px-4 $margin-px-8;
             padding: $margin-px-4 $margin-px-8;
@@ -418,7 +459,7 @@ style.cssを移行中
 
 footer {
     text-align: center;
-    background: #333;
+    background: #000;
     color: white;
     width: 100%;
     height: 40px;

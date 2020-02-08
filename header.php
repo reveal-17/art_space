@@ -2,7 +2,7 @@
           <header>
            <div class='top_wrapper site-width'>
             <div class='left-logo'>
-                <a href="index.php"><img src="img/albemMosaic2.jpg" alt="" class='mosaic'></a>
+                <a href="index.php"><img src="img/albemResize.jpg" alt="" class='mosaic'></a>
             </div>
                 <nav class='top-nav'>
                     <ul class='top-list'>

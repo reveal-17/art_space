@@ -75,7 +75,7 @@ $(function() {
 // -------------------------------アコーディオンメニュー----------------------------------------------------
 
 function accordionMenu() {
-    $(this).toggleClass('.ac-active').next().slideToggle(300);
+    $(this).toggleClass('ac-active').next().slideToggle(300);
 }
 $('.js-toggle').click(accordionMenu);
 });

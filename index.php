@@ -51,18 +51,14 @@ require('header.php');
             <label class="albemTopInfoTab__item" for="history">History</label>
             <div class="albemTopInfoTab__content" id="news-content">
                 <div class="albemTopInfo__description">
+                    <p class="albemTopInfo__descriptionItem">2019/3/30 : Released our second album titled "器官" </p>
                     <p class="albemTopInfo__descriptionItem">2019/12/25 : Released our first album titled "「」" </p>
                     <p class="albemTopInfo__descriptionItem">2019/4/21 : Released our first single titled "箱庭より", "神話" </p>
                 </div>
             </div>
             <div class="albemTopInfoTab__content" id="history-content">
                 <div class="albemTopInfo__description">
-                <p class="albemTopInfo__descriptionItem">Albem is a Japanese music project formed in 2018.</p>
-                </div>
-            </div>
-            <div class="albemTopInfoTab__content tab_content" id="design_content">
-                <div class="albemTopInfo__description">
-                <p class="albemTopInfo__descriptionItem">デザインの内容がここに入ります</p>
+                    <p class="albemTopInfo__descriptionItem--history">Albem is a Japanese music project formed in 2018.</p>
                 </div>
             </div>
         </div>
@@ -87,30 +83,30 @@ require('header.php');
         <div class="albemTopPrize__accordion">
             <ul class="albemTopPrize__accordionContent">
                 <li class="albemTopPrize__accordionItem">
-                    <a class="albemTopPrize__accordionItem--toggle js-toggle">hao123</a>
+                    <a class="albemTopPrize__accordionItem--toggle js-toggle">『2020年を代表する50のアルバム』第50位</a>
                     <ul class="albemTopPrize__accordionItem--child">
-                        <li>baidu</li>
-                        <li>baidu</li>
-                        <li>baidu</li>
-                        <li>baidu</li>
+                        <li><a href="https://note.com/unsatisfied/n/n30ebad2e301a?magazine_key=m65d09fd77d07">『2020年を代表する50のアルバム』</a></li>
+                        <li>↑リンクへ飛びます</li>
+                        <li>hao123</li>
+                        <li>hao123</li>
                     </ul>
                 </li>
                 <li class="albemTopPrize__accordionItem">
                     <a class="albemTopPrize__accordionItem--toggle js-toggle">hao123</a>
                     <ul class="albemTopPrize__accordionItem--child">
-                        <li>baidu</li>
-                        <li>baidu</li>
-                        <li>baidu</li>
-                        <li>baidu</li>
+                        <li>hao123</li>
+                        <li>hao123</li>
+                        <li>hao123</li>
+                        <li>hao123</li>
                     </ul>
                 </li>
                 <li class="albemTopPrize__accordionItem">
                     <a class="albemTopPrize__accordionItem--toggle js-toggle">hao123</a>
                     <ul class="albemTopPrize__accordionItem--child">
-                        <li>baidu</li>
-                        <li>baidu</li>
-                        <li>baidu</li>
-                        <li>baidu</li>
+                        <li>hao123</li>
+                        <li>hao123</li>
+                        <li>hao123</li>
+                        <li>hao123</li>
                     </ul>
                 </li>
             </ul>
