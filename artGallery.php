@@ -1,11 +1,10 @@
 <?php
 require('function.php');
 require('auth.php');
-
-debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
-debug('アートギャラリー');
-debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
-debugLogStart();
+// debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+// debug('アートギャラリー');
+// debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+// debugLogStart();
 
 // ページネーション
 $currentPageNum = (!empty($_GET['p'])) ? $_GET['p'] : 1 ;
@@ -72,44 +71,45 @@ require('header.php');
             </a>
 
             <?php
-                $pageColNum = 5;
+            $pageColNum = 5;
 
-                if($currentPageNum == $totalPage && $totalPage >= $pageColNum){
-                    $minPageNum = $currentPageNum - 4;
-                    $maxPageNum = $currentPageNum;
-                }elseif($currentPageNum == $totalPage - 1 && $totalPage >= $pageColNum){
-                    $minPageNum = $currentPageNum - 3;
-                    $maxPageNum = $currentPageNum + 1;
-                }elseif($currentPageNum == 2 && $totalPage >= $pageColNum){
-                    $minPageNum = $currentPageNum - 1;
-                    $maxPageNum = $currentPageNum + 3;
-                }elseif($currentPageNum == 1 && $totalPage >= $pageColNum){
-                    $minPageNum = $currentPageNum;
-                    $maxPageNum = $currentPageNum + 4;
-                }elseif($totalPage < $pageColNum){
-                    $minPageNum = 1;
-                    $maxPageNum = $totalPage;
-                }else{
-                    $minPageNum = $currentPageNum - 2;
-                    $maxPageNum = $currentPageNum + 2;
-                }
+            if ($currentPageNum == $totalPage && $totalPage >= $pageColNum) {
+                $minPageNum = $currentPageNum - 4;
+                $maxPageNum = $currentPageNum;
+            } elseif ($currentPageNum == $totalPage - 1 && $totalPage >= $pageColNum) {
+                $minPageNum = $currentPageNum - 3;
+                $maxPageNum = $currentPageNum + 1;
+            } elseif ($currentPageNum == 2 && $totalPage >= $pageColNum) {
+                $minPageNum = $currentPageNum - 1;
+                $maxPageNum = $currentPageNum + 3;
+            } elseif ($currentPageNum == 1 && $totalPage >= $pageColNum) {
+                $minPageNum = $currentPageNum;
+                $maxPageNum = $currentPageNum + 4;
+            } elseif ($totalPage < $pageColNum) {
+                $minPageNum = 1;
+                $maxPageNum = $totalPage;
+            } else {
+                $minPageNum = $currentPageNum - 2;
+                $maxPageNum = $currentPageNum + 2;
+            }
             ?>
 
             <?php for($i = $minPageNum; $i <= $maxPageNum; $i++): ?>
             <a href='?p=<?php echo $i ; ?>'>
-            <li class='<?php if($currentPageNum == $i){echo 'active';} ?>'><?php echo $i ; ?></li>
+                <li class='<?php if($currentPageNum == $i){echo 'active';} ?>'><?php echo $i ; ?></li>
             </a>
             <?php endfor; ?>
 
-            <a href="?p=<?php echo $maxPageNum ; ?>"><li>
-            <?php if($currentPageNum != $totalPage): ?>
-            &gt;
-            <?php endif; ?>
-            </li></a>
+            <a href="?p=<?php echo $maxPageNum ; ?>">
+                <li>
+                <?php if($currentPageNum != $totalPage): ?>
+                &gt;
+                <?php endif; ?>
+                </li>
+            </a>
         </ul>
     </div>
 </div>
-
 
 <?php
 require('footer.php');

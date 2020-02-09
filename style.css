@@ -214,11 +214,14 @@ div.un-form{
 
 
 /*=============================================artwork===================================*/
+
+
 .all{
-  width: 100%;
-  position: relative;
-  height: 600px;
-  font-family: 'Sawarabi Mincho', sans-serif;
+      width: 100%;
+      position: relative;
+      height: 600px;
+      font-family: 'Sawarabi Mincho', sans-serif;
+      margin-bottom: 250px;
 }
 
 
@@ -242,8 +245,11 @@ div.un-form{
     left: 490px;
     box-sizing: border-box;
     z-index: -10;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
 
 .two .favorite{
     color: #f6f5f4;
@@ -254,13 +260,13 @@ div.un-form{
 
 .three{
   /* background: gold; */
-    width: 50%;
-    height: 500px;
-    position: absolute;
-    top: 160px;
-    left: 490px;
-    box-sizing: border-box;
-    padding-left: 10px;
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  top: 160px;
+  left: 490px;
+  box-sizing: border-box;
+
 }
 
 
@@ -323,6 +329,7 @@ main .border-b{
 main p{
   text-align: center;
 }
+
 
 
 

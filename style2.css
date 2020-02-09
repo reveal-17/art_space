@@ -207,11 +207,59 @@ style.cssを移行中
   left: 200px;
 }
 
+.albemTopArtwork__modal {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.albemTopArtwork__modalBackground {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.albemTopArtwork__modalContent {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 48px;
+  width: 60%;
+  z-index: 20;
+}
+
+.albemTopArtwork__modalContent img {
+  width: 40%;
+}
+
+.albemTopArtwork__modalContent p {
+  position: absolute;
+  top: 100px;
+  left: 640px;
+  font-size: 32px;
+}
+
+.albemTopArtwork__modalContent audio {
+  position: absolute;
+  top: 330px;
+  left: 530px;
+}
+
 .albemTopPrize {
   width: 980px;
   margin: 160px auto 0;
   position: relative;
-  height: 1300px;
+  height: 800px;
   /*仮おき*/
 }
 
@@ -253,6 +301,7 @@ style.cssを移行中
   padding: 12px 8px;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
+  cursor: pointer;
 }
 
 .albemTopPrize__accordionItem--toggle:hover {
@@ -295,6 +344,20 @@ style.cssを移行中
 
 .albemTopPrize__accordionItem--child li:last-child {
   margin-bottom: 24px;
+}
+
+.albemTopRightBackground {
+  position: relative;
+  height: 500px;
+}
+
+.albemTopRightBackground--content {
+  background-color: #000;
+  width: 1080px;
+  height: 400px;
+  position: absolute;
+  top: 100px;
+  right: -400px;
 }
 
 /*           =========================画像スライダー=================================*/
@@ -473,5 +536,6 @@ footer {
   width: 100%;
   height: 40px;
   line-height: 40px;
+  padding: 16px;
 }
 /*# sourceMappingURL=style2.css.map */

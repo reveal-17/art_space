@@ -74,8 +74,46 @@ $(function() {
 
 // -------------------------------アコーディオンメニュー----------------------------------------------------
 
-function accordionMenu() {
-    $(this).toggleClass('ac-active').next().slideToggle(300);
-}
-$('.js-toggle').click(accordionMenu);
+    function accordionMenu() {
+        $(this).toggleClass('ac-active').next().slideToggle(300);
+    }
+    $('.js-toggle').click(accordionMenu);
+
+// ---------------------------------------モーダル---------------------------------------------
+    $('.js-modal-open').each(function() {
+        $(this).on('click', function() {
+            const target =  $(this).data('target');
+            const modal = document.getElementById(target);
+            $(modal).fadeIn();
+        });
+    });
+
+    $('.js-modal-close').on('click', function() {
+        $('.js-modal').fadeOut();
+    });
+
+    // -------------------------------------------いいね-----------------------------------------------------
+    const good = $('.js-btn-good');
+    good.on('click', function(e) {
+        e.stopPropagation();
+        const $this = $(this);
+        goodPostId =  $this.parents('.js-good-parent').data('artid');
+        $.ajax({
+            type: 'POST',
+            url: 'ajaxFavorite.php',
+            data: {artid: goodPostId}
+        }).done(function(data) {
+            console.log('Ajax Success');
+            // いいねの総数を表示
+            $this.children('span').html(data);
+            // いいね取り消しのスタイル
+            $this.children('i').toggleClass('far'); //空洞ハート
+            // いいね押した時のスタイル
+            $this.children('i').toggleClass('fas'); //塗りつぶしハート
+            $this.children('i').toggleClass('active');
+            $this.toggleClass('active');
+        }).fail(function() {
+            console.log('Ajax Error');
+        });
+    });
 });

@@ -1,18 +1,5 @@
 <?php
 require('function.php');
-// debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
-// debug('トップページ');
-// debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
-
-// if(!empty($_POST)){
-//     if (!empty($_SESSION['user_id'])){
-//         debug('ログインしています');
-//         header('Location:artGallery.php');
-//     } else {
-//         debug('ログインしていません');
-//         header('Location:login.php');
-//     }
-// }
 ?>
 
 <?php
@@ -30,17 +17,7 @@ require('header.php');
         <img src="img/mujina.JPG" alt="">
     </div>
     <div class="albemTop__button">
-    <?php
-        if(empty($_SESSION['user_id'])){
-    ?>
-        <a href="login.php"><button>Art Space</button></a>
-    <?php
-        } else {
-    ?>
         <a href="artGallery.php"><button>Art Space</button></a>
-    <?php
-        }
-    ?>
     </div>
 
     <div class="albemTopInfo">
@@ -66,14 +43,41 @@ require('header.php');
 
     <div class="albemTopArtwork">
         <p class="c-heading1">Discograpy</p>
+
         <div class="albemTopArtwork__wrapper">
-            <img class="albemTopArtwork__wrapper--first" src="img/bracket.jpg" alt="">
+            <img class="albemTopArtwork__wrapper--first js-modal-open" src="img/bracket.jpg" data-target="modal1">
         </div>
-        <div class="albemTopArtwork__wrapper">
-            <img class="albemTopArtwork__wrapper--second" src="img/bracket.jpg" alt="">
+        <div  id="modal1" class="albemTopArtwork__modal js-modal">
+            <div class="albemTopArtwork__modalBackground js-modal-close"></div>
+            <div class="albemTopArtwork__modalContent">
+                <img src="img/bracket.jpg">
+                <p>「、」</p>
+                <audio controls src="music/dot.wav"></audio>
+            </div>
         </div>
+
         <div class="albemTopArtwork__wrapper">
-            <img class="albemTopArtwork__wrapper--third" src="img/bracket.jpg" alt="">
+            <img class="albemTopArtwork__wrapper--second js-modal-open" src="img/bracket.jpg" data-target="modal2">
+        </div>
+        <div id="modal2" class="albemTopArtwork__modal js-modal">
+            <div class="albemTopArtwork__modalBackground js-modal-close"></div>
+            <div class="albemTopArtwork__modalContent">
+                <img src="img/bracket.jpg">
+                <p>「...」</p>
+                <audio controls src="music/line.wav"></audio>
+            </div>
+        </div>
+
+        <div class="albemTopArtwork__wrapper">
+            <img class="albemTopArtwork__wrapper--third js-modal-open" src="img/bracket.jpg" data-target="modal3">
+        </div>
+        <div id="modal3" class="albemTopArtwork__modal js-modal">
+            <div class="albemTopArtwork__modalBackground js-modal-close"></div>
+            <div class="albemTopArtwork__modalContent">
+                <img src="img/bracket.jpg">
+                <p>「。」</p>
+                <audio controls src="music/circle.wav"></audio>
+            </div>
         </div>
     </div>
 
@@ -111,6 +115,10 @@ require('header.php');
                 </li>
             </ul>
         </div>
+    </div>
+
+    <div class="albemTopRightBackground">
+        <div class="albemTopRightBackground--content"></div>
     </div>
 </div>
 
