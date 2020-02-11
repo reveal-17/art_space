@@ -353,7 +353,7 @@ style.cssを移行中
             height: 400px;
             position: absolute;
             top: 100px;
-            right: -400px;
+            right: 0;
         }
     }
 }
@@ -526,5 +526,5 @@ footer {
     width: 100%;
     height: 40px;
     line-height: 40px;
-    padding: $margin-px-16;
+    padding: $margin-px-16 0;
 }
