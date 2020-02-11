@@ -1,5 +1,18 @@
 <?php
 require('function.php');
+// debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+// debug('トップページ');
+// debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+
+// if(!empty($_POST)){
+//     if (!empty($_SESSION['user_id'])){
+//         debug('ログインしています');
+//         header('Location:artGallery.php');
+//     } else {
+//         debug('ログインしていません');
+//         header('Location:login.php');
+//     }
+// }
 ?>
 
 <?php
@@ -17,7 +30,17 @@ require('header.php');
         <img src="img/mujina.JPG" alt="">
     </div>
     <div class="albemTop__button">
+    <?php
+        if(empty($_SESSION['user_id'])){
+    ?>
+        <a href="login.php"><button>Art Space</button></a>
+    <?php
+        } else {
+    ?>
         <a href="artGallery.php"><button>Art Space</button></a>
+    <?php
+        }
+    ?>
     </div>
 
     <div class="albemTopInfo">
