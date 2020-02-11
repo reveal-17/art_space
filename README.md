@@ -12,6 +12,8 @@ phpのアウトプットとして作成
 - パスワード変更
 - ログイン前ページ
 - ログイン後ページ
-- いいね機能
+- いいね機能（実装中）
 
+参考URL
+https://drive.google.com/drive/folders/1_zd3OQFfJr25JI9C-anFH-1hZsc2wuPr?usp=sharing
 
